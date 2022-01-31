@@ -112,6 +112,13 @@ console.log(number)
     Ex.: splitMe("I love coding") => returns ["I", "Love", "Coding"]
 */
 printTitle("Exercise 3")
+
+function splitMe (word){
+    return word.split(' ')
+}
+
+console.log(splitMe('I hate beans'))
+
 /* EXERCISE 4
     Write a function called deleteOne which receives a string and a boolean as parameters.
     If the boolean value is true it should return the string without the first letter, otherwise it should remove the last one from it.
