@@ -229,6 +229,7 @@ function isTodayMyBirthday(dateTwo){
 }
 
 console.log(isTodayMyBirthday("7/8/2001"))
+
 // JS Arrays & Objects
 // NOTE: the movies array used in some exercises is defined at the end of this file
 
@@ -237,10 +238,34 @@ console.log(isTodayMyBirthday("7/8/2001"))
    and returns the given object after deleting its property named as the given string.
 */
 printTitle("Exercise 11")
+let object = {
+    building: "Empire State Building"
+}
+function deleteProp(){
+    const result1 = String(object)
+    const result2 = String(object['building'])
+    return result1, result2
+}
+
+console.log(deleteProp())
+
 /* EXERCISE 12
     Write a function called oldestMovie which finds the oldest movie in the provided movies array.
 */
 printTitle("Exercise 12")
+
+/*function oldestMovie(movies) {
+    for(let i = 1; i < movies.length ; i++){
+        let currentDate = movies[i]
+        if (currentDate < oldest){
+            oldest = currentDate
+        }
+    }
+    return oldest
+}
+
+console.log(oldestMovie())*/
+
 /* EXERCISE 13
     Write a function called countMovies which returns the number of movies contained in the provided movies array.
 */
@@ -249,6 +274,7 @@ printTitle("Exercise 13")
     Write a function called onlyTheTitles which creates an array with just the titles of the movies contained in the provided movies array.
 */
 printTitle("Exercise 14")
+
 /* EXERCISE 15
    Write a function called onlyInThisMillennium which returns only the movies produced in this millennium from the provided movies array.
 */
