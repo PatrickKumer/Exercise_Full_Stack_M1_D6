@@ -79,6 +79,10 @@ console.log(me)
 */
 printTitle("Exercise G")
 
+me.skills.pop()
+
+console.log(me)
+
 // JS Functions
 /* EXERCISE 1
     Write a function called dice; it should randomize an integer number between 1 and 6.
