@@ -42,10 +42,17 @@ printTitle("Exercise C")
 let random = Math.floor(Math.random() * 10)
 
 console.log(random)
+
 /* EXERCISE D
     Create a variable called me and assign to it an object containing the following information: name = your name, surname = your surname, age = your age.
 */
 printTitle("Exercise D")
+
+let me = {
+    name: "Patrick",
+    lastname: "Kumer",
+    age: 20
+}
 
 /* EXERCISE E
     Write a piece of code for programmatically removing the age property from the previously create object.
