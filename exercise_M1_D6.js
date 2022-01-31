@@ -184,6 +184,7 @@ function whatDayIsIt(day){
 }
 
 console.log(whatDayIsIt(1))
+
 /* EXERCISE 8
     Write a function called rollTheDices which receives a number as a parameter.
     It should invoke the dice() function defined in Ex1 the specified amount of times,
@@ -195,10 +196,25 @@ console.log(whatDayIsIt(1))
     }
 */
 printTitle("Exercise 8")
+
+function rollTheDices(x){
+
+}
 /* EXERCISE 9
    Write a function called howManyDays which receives a date as a parameter and returns the number of days passed since that date.
 */
 printTitle("Exercise 9")
+
+function howManyDays(start, end){
+    const date1 = new Date(start)
+    const date2 = new Date(end)
+    const oneDay = 1000 * 60 * 60 * 24
+    const differenceInTime = date2.getTime() - date1.getTime()
+    const differenceInDays = Math.round(differenceInTime / oneDay)
+    return differenceInDays
+}
+
+console.log(howManyDays("3/1/2021", "1/1/2022"))
 /* EXERCISE 10
    Write a function called isTodayMyBirthday which should return true if today's your birthday, false otherwise.
 */
