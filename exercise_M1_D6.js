@@ -124,6 +124,19 @@ console.log(splitMe('I hate beans'))
     If the boolean value is true it should return the string without the first letter, otherwise it should remove the last one from it.
 */
 printTitle("Exercise 4")
+
+let value = true
+function deleteOne(word){
+    if (value){
+        return word.substring(1)
+    } else {
+        return word.substring(0, word.length - 1)
+    }
+
+}
+
+console.log(deleteOne("Bowling"))
+
 /* EXERCISE 5
    Write a function called onlyLetters which receives a string as a parameter and returns it removing all the digits.
    Ex.: onlyLetters("I have 4 dogs") => returns "I have  dogs"
