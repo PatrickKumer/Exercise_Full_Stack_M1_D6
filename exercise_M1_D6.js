@@ -164,6 +164,26 @@ console.log(isThisAnEmail("mark.rodgers@gmail.com"))
    Write a function called whatDayIsIt that should return the current day of the week.
 */
 printTitle("Exercise 7")
+
+const daysInWeek = new Array(7)
+daysInWeek[0] = 'Sunday'
+daysInWeek[1] = 'Monday'
+daysInWeek[2] = 'Tuesday'
+daysInWeek[3] = 'Wednesday'
+daysInWeek[4] = 'Thursday'
+daysInWeek[5] = 'Friday'
+daysInWeek[6] = 'Saturday'
+
+
+function whatDayIsIt(day){
+    if (day < 1 || day > 7){
+        return null
+    } else {
+        return daysInWeek[day]
+    }
+}
+
+console.log(whatDayIsIt(1))
 /* EXERCISE 8
     Write a function called rollTheDices which receives a number as a parameter.
     It should invoke the dice() function defined in Ex1 the specified amount of times,
