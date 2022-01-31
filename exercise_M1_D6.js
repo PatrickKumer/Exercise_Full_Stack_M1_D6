@@ -39,7 +39,7 @@ console.log(sum)
 */
 printTitle("Exercise C")
 
-let random = Math.floor(Math.random() * 10)
+let random = Math.floor(Math.random() * 20)
 
 console.log(random)
 
