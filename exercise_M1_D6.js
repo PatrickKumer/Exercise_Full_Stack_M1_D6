@@ -219,6 +219,16 @@ console.log(howManyDays("3/1/2021", "1/1/2022"))
    Write a function called isTodayMyBirthday which should return true if today's your birthday, false otherwise.
 */
 printTitle("Exercise 10")
+let dateOne = "7/1/2001"
+function isTodayMyBirthday(dateTwo){
+    if (dateOne === dateTwo){
+        return true
+    } else {
+        return false
+    }
+}
+
+console.log(isTodayMyBirthday("7/8/2001"))
 // JS Arrays & Objects
 // NOTE: the movies array used in some exercises is defined at the end of this file
 
