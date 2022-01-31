@@ -99,6 +99,14 @@ console.log(dice(1))
     Write a function called whoIsBigger which receives 2 numbers as parameters and returns the biggest one.
 */
 printTitle("Exercise 2")
+
+function whoIsBigger(a, b){
+    return Math.max(a, b)
+}
+
+let number = whoIsBigger(12, 8)
+console.log(number)
+
 /* EXERCISE 3
     Write a function called splitMe which receives a string as a parameter and returns an array with every word in that string.
     Ex.: splitMe("I love coding") => returns ["I", "Love", "Coding"]
