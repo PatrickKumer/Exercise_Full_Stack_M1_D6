@@ -148,10 +148,18 @@ function onlyLetters(word){
 }
 
 console.log(onlyLetters('I live in 2022'))
+
 /* EXERCISE 6
    Write a function called isThisAnEmail which receives a string as a parameter and returns true if the string is a valid email address.
 */
 printTitle("Exercise 6")
+
+function isThisAnEmail(email){
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+}
+
+console.log(isThisAnEmail("mark.rodgers@gmail.com"))
+
 /* EXERCISE 7
    Write a function called whatDayIsIt that should return the current day of the week.
 */
