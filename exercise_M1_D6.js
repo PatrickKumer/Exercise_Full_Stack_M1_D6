@@ -125,8 +125,7 @@ console.log(splitMe('I hate beans'))
 */
 printTitle("Exercise 4")
 
-let value = true
-function deleteOne(word){
+function deleteOne(word, value){
     if (value){
         return word.substring(1)
     } else {
@@ -135,7 +134,7 @@ function deleteOne(word){
 
 }
 
-console.log(deleteOne("Bowling"))
+console.log(deleteOne("Bowling", true))
 
 /* EXERCISE 5
    Write a function called onlyLetters which receives a string as a parameter and returns it removing all the digits.
