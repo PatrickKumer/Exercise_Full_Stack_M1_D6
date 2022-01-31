@@ -88,6 +88,13 @@ console.log(me)
     Write a function called dice; it should randomize an integer number between 1 and 6.
 */
 printTitle("Exercise 1")
+
+function dice (){
+        return 1 + Math.floor(Math.random() * 6)
+}
+
+console.log(dice(1))
+
 /* EXERCISE 2
     Write a function called whoIsBigger which receives 2 numbers as parameters and returns the biggest one.
 */
