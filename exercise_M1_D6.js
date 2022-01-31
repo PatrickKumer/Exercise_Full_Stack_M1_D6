@@ -42,7 +42,6 @@ printTitle("Exercise C")
 let random = Math.floor(Math.random() * 10)
 
 console.log(random)
-
 /* EXERCISE D
     Create a variable called me and assign to it an object containing the following information: name = your name, surname = your surname, age = your age.
 */
